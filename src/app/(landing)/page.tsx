@@ -64,7 +64,7 @@ export default function Page() {
             <MaxWidthWrapper className="relative">
               <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                 <MockDiscordUI>
-                  <AnimatedList >
+                  <AnimatedList>
                     <DiscordMessage
                       avatarSrc={"/brand-asset-profile-picture.png"}
                       avatarAlt={"PingPanda avatar"}
@@ -90,6 +90,19 @@ export default function Page() {
                         amount: "$49.00",
                         email: "zoem.martines@gmail.com",
                         plan: "PRO",
+                      }}
+                    />
+                    <DiscordMessage
+                      avatarSrc={"/brand-asset-profile-picture.png"}
+                      avatarAlt={"PingPanda avatar"}
+                      username={"PingPanda"}
+                      timestamp={"Today at 15:35PM"}
+                      badgeText="Milestone"
+                      badgeColor="gray"
+                      title={"🚀 Revenue Milestone Achieved"}
+                      content={{
+                        reccuringRevenue: "$5,000.00 USD",
+                        growth: "+9.5%",
                       }}
                     />
                   </AnimatedList>
